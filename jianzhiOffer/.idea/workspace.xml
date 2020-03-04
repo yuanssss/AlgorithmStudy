@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfca714-5eb4-4a5b-9e36-4698d24a7516" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question2_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question3_ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question4_binaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question5_stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question6_MinNumberArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/question4_binaryTree.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/question1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/question1_Arr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question3_ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/question3_ArrayList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +47,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1Wbb3f37T8ln20V8MjzRIZH5nwE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -64,7 +67,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager" selected="Application.question3_ArrayList">
+  <component name="RunManager" selected="Application.question6_MinNumberArray">
     <configuration name="question2_String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="question2_String" />
       <module name="jianzhiOffer.main" />
@@ -79,8 +82,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="question4_binaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question4_binaryTree" />
+      <module name="jianzhiOffer.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="question5_stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question5_stack" />
+      <module name="jianzhiOffer.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="question6_MinNumberArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question6_MinNumberArray" />
+      <module name="jianzhiOffer.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.question6_MinNumberArray" />
+        <item itemvalue="Application.question5_stack" />
+        <item itemvalue="Application.question4_binaryTree" />
         <item itemvalue="Application.question3_ArrayList" />
         <item itemvalue="Application.question2_String" />
       </list>
@@ -98,32 +125,69 @@
       <updated>1579421043135</updated>
       <workItem from="1579421048217" duration="87000" />
       <workItem from="1583033841889" duration="7960000" />
+      <workItem from="1583202239664" duration="8842000" />
+      <workItem from="1583287214489" duration="10081000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1348" height="223" key="GridCell.Tab.0.bottom" timestamp="1583053165590">
+    <state x="295" y="128" key="#Project_Structure" timestamp="1583223041448">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="223" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1583053165590" />
-    <state width="1348" height="223" key="GridCell.Tab.0.center" timestamp="1583053165590">
+    <state x="295" y="128" key="#Project_Structure/0.23.1390.877@0.23.1390.877" timestamp="1583223041448" />
+    <state width="1348" height="276" key="GridCell.Tab.0.bottom" timestamp="1583315669414">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="223" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1583053165590" />
-    <state width="1348" height="223" key="GridCell.Tab.0.left" timestamp="1583053165590">
+    <state width="1348" height="276" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
+    <state width="1348" height="276" key="GridCell.Tab.0.center" timestamp="1583315669413">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="223" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1583053165590" />
-    <state width="1348" height="223" key="GridCell.Tab.0.right" timestamp="1583053165590">
+    <state width="1348" height="276" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1583315669413" />
+    <state width="1348" height="276" key="GridCell.Tab.0.left" timestamp="1583315669413">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="223" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1583053165590" />
-    <state x="349" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1583033842572">
+    <state width="1348" height="276" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1583315669413" />
+    <state width="1348" height="276" key="GridCell.Tab.0.right" timestamp="1583315669413">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1583033842572" />
+    <state width="1348" height="276" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1583315669413" />
+    <state width="1348" height="276" key="GridCell.Tab.1.bottom" timestamp="1583315669414">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state width="1348" height="276" key="GridCell.Tab.1.bottom/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
+    <state width="1348" height="276" key="GridCell.Tab.1.center" timestamp="1583315669414">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state width="1348" height="276" key="GridCell.Tab.1.center/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
+    <state width="1348" height="276" key="GridCell.Tab.1.left" timestamp="1583315669414">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state width="1348" height="276" key="GridCell.Tab.1.left/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
+    <state width="1348" height="276" key="GridCell.Tab.1.right" timestamp="1583315669414">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state width="1348" height="276" key="GridCell.Tab.1.right/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
+    <state x="349" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1583287226568">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1583287226568" />
+    <state x="100" y="123" width="1190" height="677" key="dock-window-1" timestamp="1583290059892">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state x="100" y="123" width="1190" height="677" key="dock-window-1/0.23.1390.877@0.23.1390.877" timestamp="1583290059892" />
+    <state x="401" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1583294161730">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state x="401" y="87" key="refactoring.ChangeSignatureDialog/0.23.1390.877@0.23.1390.877" timestamp="1583294161730" />
+    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1583222713551">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1390.877@0.23.1390.877" timestamp="1583222713551" />
   </component>
 </project>

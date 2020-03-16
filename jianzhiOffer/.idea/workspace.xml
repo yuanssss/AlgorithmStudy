@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfca714-5eb4-4a5b-9e36-4698d24a7516" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/question7_Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question8_JumpFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question10_RectCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question11_NumberOf1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question12_power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question9_JumpFloorII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -12,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question8_JumpFloor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/question8_JumpFloor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +65,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager" selected="Application.question8_JumpFloor">
-    <configuration name="question3_ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question3_ArrayList" />
+  <component name="RunManager" selected="Application.question12_power">
+    <configuration name="question11_NumberOf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question11_NumberOf1" />
       <module name="jianzhiOffer.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question4_binaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question4_binaryTree" />
-      <module name="jianzhiOffer.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="question5_stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question5_stack" />
+    <configuration name="question12_power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question12_power" />
       <module name="jianzhiOffer.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,13 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="question9_JumpFloorII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question9_JumpFloorII" />
+      <module name="jianzhiOffer.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.question12_power" />
+        <item itemvalue="Application.question11_NumberOf1" />
+        <item itemvalue="Application.question9_JumpFloorII" />
         <item itemvalue="Application.question8_JumpFloor" />
         <item itemvalue="Application.question6_MinNumberArray" />
-        <item itemvalue="Application.question5_stack" />
-        <item itemvalue="Application.question4_binaryTree" />
-        <item itemvalue="Application.question3_ArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +126,10 @@
       <workItem from="1583202239664" duration="8842000" />
       <workItem from="1583287214489" duration="10081000" />
       <workItem from="1583373212043" duration="6612000" />
+      <workItem from="1583462122812" duration="3912000" />
+      <workItem from="1584260552161" duration="1049000" />
+      <workItem from="1584323167033" duration="3472000" />
+      <workItem from="1584348526624" duration="2371000" />
     </task>
     <servers />
   </component>
@@ -141,42 +148,42 @@
       <screen x="0" y="23" width="1390" height="877" />
     </state>
     <state x="295" y="128" key="#Project_Structure/0.23.1390.877@0.23.1390.877" timestamp="1583223041448" />
-    <state width="1348" height="223" key="GridCell.Tab.0.bottom" timestamp="1583380423789">
+    <state width="1348" height="276" key="GridCell.Tab.0.bottom" timestamp="1584350997238">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="223" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1583380423789" />
-    <state width="1348" height="223" key="GridCell.Tab.0.center" timestamp="1583380423788">
+    <state width="1348" height="276" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1584350997238" />
+    <state width="1348" height="276" key="GridCell.Tab.0.center" timestamp="1584350997237">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="223" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1583380423788" />
-    <state width="1348" height="223" key="GridCell.Tab.0.left" timestamp="1583380423788">
+    <state width="1348" height="276" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1584350997237" />
+    <state width="1348" height="276" key="GridCell.Tab.0.left" timestamp="1584350997237">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="223" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1583380423788" />
-    <state width="1348" height="223" key="GridCell.Tab.0.right" timestamp="1583380423789">
+    <state width="1348" height="276" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1584350997237" />
+    <state width="1348" height="276" key="GridCell.Tab.0.right" timestamp="1584350997238">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="223" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1583380423789" />
-    <state width="1348" height="276" key="GridCell.Tab.1.bottom" timestamp="1583315669414">
+    <state width="1348" height="276" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1584350997238" />
+    <state width="1348" height="276" key="GridCell.Tab.1.bottom" timestamp="1584350997239">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.1.bottom/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
-    <state width="1348" height="276" key="GridCell.Tab.1.center" timestamp="1583315669414">
+    <state width="1348" height="276" key="GridCell.Tab.1.bottom/0.23.1390.877@0.23.1390.877" timestamp="1584350997239" />
+    <state width="1348" height="276" key="GridCell.Tab.1.center" timestamp="1584350997238">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.1.center/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
-    <state width="1348" height="276" key="GridCell.Tab.1.left" timestamp="1583315669414">
+    <state width="1348" height="276" key="GridCell.Tab.1.center/0.23.1390.877@0.23.1390.877" timestamp="1584350997238" />
+    <state width="1348" height="276" key="GridCell.Tab.1.left" timestamp="1584350997238">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.1.left/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
-    <state width="1348" height="276" key="GridCell.Tab.1.right" timestamp="1583315669414">
+    <state width="1348" height="276" key="GridCell.Tab.1.left/0.23.1390.877@0.23.1390.877" timestamp="1584350997238" />
+    <state width="1348" height="276" key="GridCell.Tab.1.right" timestamp="1584350997238">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.1.right/0.23.1390.877@0.23.1390.877" timestamp="1583315669414" />
-    <state x="349" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1583373212692">
+    <state width="1348" height="276" key="GridCell.Tab.1.right/0.23.1390.877@0.23.1390.877" timestamp="1584350997238" />
+    <state x="349" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1584348538729">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1583373212692" />
+    <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1584348538729" />
     <state x="100" y="123" width="1190" height="677" key="dock-window-1" timestamp="1583290059892">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
@@ -185,9 +192,12 @@
       <screen x="0" y="23" width="1390" height="877" />
     </state>
     <state x="401" y="87" key="refactoring.ChangeSignatureDialog/0.23.1390.877@0.23.1390.877" timestamp="1583294161730" />
-    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1583222713551">
+    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1584350406016">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1390.877@0.23.1390.877" timestamp="1583222713551" />
+    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1390.877@0.23.1390.877" timestamp="1584350406016" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jianzhiOffer$question9_JumpFloorII.ic" NAME="question9_JumpFloorII Coverage Results" MODIFIED="1583465516248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

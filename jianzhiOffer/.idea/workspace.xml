@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfca714-5eb4-4a5b-9e36-4698d24a7516" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/question13_reOrderArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question14_FindKthToTail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question15_ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question16_Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question17_HasSubtree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question18_Mirror.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question19_printMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question20_minStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question21_IsPopOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question22_PrintFromTopToBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question23_VerifySquenceOfBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/question24_FindPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/question16_Merge.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
@@ -13,7 +24,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question12_power.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/question12_power.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ListNode2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ListNode2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question14_FindKthToTail.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/question14_FindKthToTail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question14_FindKthToTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/question14_FindKthToTail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,37 +77,49 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager" selected="Application.question14_FindKthToTail">
-    <configuration name="question11_NumberOf1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question11_NumberOf1" />
+  <component name="RunManager" selected="Application.Test2">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MeiTuan.Test1" />
+      <module name="jianzhiOffer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MeiTuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MeiTuan.Test2" />
+      <module name="jianzhiOffer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MeiTuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="question21_IsPopOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question21_IsPopOrder" />
       <module name="jianzhiOffer.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question12_power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question12_power" />
+    <configuration name="question23_VerifySquenceOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question23_VerifySquenceOfBST" />
       <module name="jianzhiOffer.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question13_reOrderArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question13_reOrderArray" />
-      <module name="jianzhiOffer.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="question14_FindKthToTail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question14_FindKthToTail" />
-      <module name="jianzhiOffer.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="question9_JumpFloorII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question9_JumpFloorII" />
+    <configuration name="question24_FindPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="question24_FindPath" />
       <module name="jianzhiOffer.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.question14_FindKthToTail" />
-        <item itemvalue="Application.question13_reOrderArray" />
-        <item itemvalue="Application.question12_power" />
-        <item itemvalue="Application.question11_NumberOf1" />
-        <item itemvalue="Application.question9_JumpFloorII" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.question24_FindPath" />
+        <item itemvalue="Application.question23_VerifySquenceOfBST" />
+        <item itemvalue="Application.question21_IsPopOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +155,20 @@
       <workItem from="1584323167033" duration="3472000" />
       <workItem from="1584348526624" duration="2371000" />
       <workItem from="1585015384417" duration="6734000" />
+      <workItem from="1585101378368" duration="8081000" />
+      <workItem from="1585212886453" duration="6645000" />
+      <workItem from="1585363360142" duration="7000" />
+      <workItem from="1585621196063" duration="9791000" />
+      <workItem from="1585705940015" duration="5423000" />
+      <workItem from="1585793643017" duration="4010000" />
+      <workItem from="1585813916964" duration="3444000" />
+      <workItem from="1585878421632" duration="3997000" />
+      <workItem from="1585992326622" duration="2815000" />
+      <workItem from="1586329276938" duration="7360000" />
+      <workItem from="1586399448193" duration="85000" />
+      <workItem from="1586404892940" duration="8026000" />
+      <workItem from="1586744591208" duration="4235000" />
+      <workItem from="1586832623505" duration="2697000" />
     </task>
     <servers />
   </component>
@@ -148,56 +187,57 @@
       <screen x="0" y="23" width="1390" height="877" />
     </state>
     <state x="295" y="128" key="#Project_Structure/0.23.1390.877@0.23.1390.877" timestamp="1583223041448" />
-    <state width="1348" height="276" key="GridCell.Tab.0.bottom" timestamp="1585043970459">
+    <state width="1348" height="202" key="GridCell.Tab.0.bottom" timestamp="1586839361839">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1585043970459" />
-    <state width="1348" height="276" key="GridCell.Tab.0.center" timestamp="1585043970458">
+    <state width="1348" height="202" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
+    <state width="1348" height="202" key="GridCell.Tab.0.center" timestamp="1586839361839">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1585043970458" />
-    <state width="1348" height="276" key="GridCell.Tab.0.left" timestamp="1585043970458">
+    <state width="1348" height="202" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
+    <state width="1348" height="202" key="GridCell.Tab.0.left" timestamp="1586839361839">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1585043970458" />
-    <state width="1348" height="276" key="GridCell.Tab.0.right" timestamp="1585043970459">
+    <state width="1348" height="202" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
+    <state width="1348" height="202" key="GridCell.Tab.0.right" timestamp="1586839361839">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1585043970459" />
-    <state width="1348" height="276" key="GridCell.Tab.1.bottom" timestamp="1585043970460">
+    <state width="1348" height="202" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
+    <state width="1348" height="202" key="GridCell.Tab.1.bottom" timestamp="1586839361840">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.1.bottom/0.23.1390.877@0.23.1390.877" timestamp="1585043970460" />
-    <state width="1348" height="276" key="GridCell.Tab.1.center" timestamp="1585043970459">
+    <state width="1348" height="202" key="GridCell.Tab.1.bottom/0.23.1390.877@0.23.1390.877" timestamp="1586839361840" />
+    <state width="1348" height="202" key="GridCell.Tab.1.center" timestamp="1586839361840">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.1.center/0.23.1390.877@0.23.1390.877" timestamp="1585043970459" />
-    <state width="1348" height="276" key="GridCell.Tab.1.left" timestamp="1585043970459">
+    <state width="1348" height="202" key="GridCell.Tab.1.center/0.23.1390.877@0.23.1390.877" timestamp="1586839361840" />
+    <state width="1348" height="202" key="GridCell.Tab.1.left" timestamp="1586839361839">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.1.left/0.23.1390.877@0.23.1390.877" timestamp="1585043970459" />
-    <state width="1348" height="276" key="GridCell.Tab.1.right" timestamp="1585043970459">
+    <state width="1348" height="202" key="GridCell.Tab.1.left/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
+    <state width="1348" height="202" key="GridCell.Tab.1.right" timestamp="1586839361840">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="276" key="GridCell.Tab.1.right/0.23.1390.877@0.23.1390.877" timestamp="1585043970459" />
-    <state x="349" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1584348538729">
+    <state width="1348" height="202" key="GridCell.Tab.1.right/0.23.1390.877@0.23.1390.877" timestamp="1586839361840" />
+    <state x="349" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1586915177352">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1584348538729" />
-    <state x="100" y="123" width="1190" height="677" key="dock-window-1" timestamp="1583290059892">
+    <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1586915177352" />
+    <state x="100" y="123" width="1190" height="677" key="dock-window-1" timestamp="1586404929948">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state x="100" y="123" width="1190" height="677" key="dock-window-1/0.23.1390.877@0.23.1390.877" timestamp="1583290059892" />
+    <state x="100" y="123" width="1190" height="677" key="dock-window-1/0.23.1390.877@0.23.1390.877" timestamp="1586404929948" />
     <state x="401" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1583294161730">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
     <state x="401" y="87" key="refactoring.ChangeSignatureDialog/0.23.1390.877@0.23.1390.877" timestamp="1583294161730" />
-    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1584350406016">
+    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1585624128800">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1390.877@0.23.1390.877" timestamp="1584350406016" />
+    <state x="360" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1390.877@0.23.1390.877" timestamp="1585624128800" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jianzhiOffer$question15_ReverseList.ic" NAME="question15_ReverseList Coverage Results" MODIFIED="1585107016645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/jianzhiOffer$question9_JumpFloorII.ic" NAME="question9_JumpFloorII Coverage Results" MODIFIED="1583465516248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

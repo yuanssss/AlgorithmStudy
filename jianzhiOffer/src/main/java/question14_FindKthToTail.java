@@ -42,7 +42,6 @@ public class question14_FindKthToTail {
 class ListNode2 {
     int val;
     ListNode2 next = null;
-
     ListNode2(int val) {
         this.val = val;
     }

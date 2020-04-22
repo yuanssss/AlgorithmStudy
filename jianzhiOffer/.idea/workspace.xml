@@ -2,31 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfca714-5eb4-4a5b-9e36-4698d24a7516" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question15_ReverseList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question16_Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question17_HasSubtree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question18_Mirror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question19_printMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question20_minStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question21_IsPopOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question22_PrintFromTopToBottom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question23_VerifySquenceOfBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/question24_FindPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/question16_Merge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q10_levelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q11_levelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q12_levelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q13_maxDeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q1_addTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q2_lengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q3_canJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q4_buildTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q5_isSubStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q6_mirrorTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q7_isSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q8_Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q9_isBalance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ListNode2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ListNode2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question14_FindKthToTail.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/question14_FindKthToTail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/question14_FindKthToTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/question14_FindKthToTail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ListNode2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MeiTuan/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MeiTuan/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question10_RectCover.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question11_NumberOf1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question12_power.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question13_reOrderArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question14_FindKthToTail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question15_ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question16_Merge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question17_HasSubtree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question18_Mirror.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question19_printMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question1_Arr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question20_minStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question21_IsPopOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question22_PrintFromTopToBottom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question23_VerifySquenceOfBST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question24_FindPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question2_String.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question3_ArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question4_binaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question5_stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question6_MinNumberArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question7_Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question8_JumpFloor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/question9_JumpFloorII.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question10_RectCover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question10_RectCover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question11_NumberOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question11_NumberOf1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question12_power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question12_power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question13_reOrderArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question13_reOrderArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question14_FindKthToTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question14_FindKthToTail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question15_ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question15_ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question16_Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question16_Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question17_HasSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question17_HasSubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question18_Mirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question18_Mirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question19_printMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question19_printMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question1_Arr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question1_Arr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question20_minStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question20_minStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question21_IsPopOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question21_IsPopOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question22_PrintFromTopToBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question22_PrintFromTopToBottom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question23_VerifySquenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question23_VerifySquenceOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question24_FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question24_FindPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question2_String.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question2_String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question3_ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question3_ArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question4_binaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question4_binaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question5_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question5_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question6_MinNumberArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question6_MinNumberArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question7_Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question7_Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question8_JumpFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question8_JumpFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/question9_JumpFloorII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer/question9_JumpFloorII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +125,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MeiTuan.Test1" />
+  <component name="RunManager" selected="Application.q9_isBalance">
+    <configuration name="q2_lengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q2_lengthOfLongestSubstring" />
       <module name="jianzhiOffer.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MeiTuan.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MeiTuan.Test2" />
+    <configuration name="q3_canJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q3_canJump" />
       <module name="jianzhiOffer.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MeiTuan.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,34 +152,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question21_IsPopOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question21_IsPopOrder" />
+    <configuration name="q5_isSubStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q5_isSubStructure" />
       <module name="jianzhiOffer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question23_VerifySquenceOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question23_VerifySquenceOfBST" />
+    <configuration name="q8_Codec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q8_Codec" />
       <module name="jianzhiOffer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="question24_FindPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="question24_FindPath" />
+    <configuration name="q9_isBalance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q9_isBalance" />
       <module name="jianzhiOffer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.question24_FindPath" />
-        <item itemvalue="Application.question23_VerifySquenceOfBST" />
-        <item itemvalue="Application.question21_IsPopOrder" />
+        <item itemvalue="Application.q9_isBalance" />
+        <item itemvalue="Application.q8_Codec" />
+        <item itemvalue="Application.q5_isSubStructure" />
+        <item itemvalue="Application.q3_canJump" />
+        <item itemvalue="Application.q2_lengthOfLongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +235,15 @@
       <workItem from="1586404892940" duration="8026000" />
       <workItem from="1586744591208" duration="4235000" />
       <workItem from="1586832623505" duration="2697000" />
+      <workItem from="1586915177440" duration="7896000" />
+      <workItem from="1586937894965" duration="524000" />
+      <workItem from="1587001368616" duration="7244000" />
+      <workItem from="1587092528653" duration="4477000" />
+      <workItem from="1587261521926" duration="4594000" />
+      <workItem from="1587267081732" duration="2375000" />
+      <workItem from="1587346092800" duration="8441000" />
+      <workItem from="1587433602041" duration="7938000" />
+      <workItem from="1587520042422" duration="5480000" />
     </task>
     <servers />
   </component>
@@ -179,50 +254,54 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="128" key="#Notifications" timestamp="1583373742852">
+    <state x="295" y="128" key="#Notifications" timestamp="1587262693983">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state x="295" y="128" key="#Notifications/0.23.1390.877@0.23.1390.877" timestamp="1583373742852" />
+    <state x="295" y="128" key="#Notifications/0.23.1390.877@0.23.1390.877" timestamp="1587262693983" />
     <state x="295" y="128" key="#Project_Structure" timestamp="1583223041448">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
     <state x="295" y="128" key="#Project_Structure/0.23.1390.877@0.23.1390.877" timestamp="1583223041448" />
-    <state width="1348" height="202" key="GridCell.Tab.0.bottom" timestamp="1586839361839">
+    <state width="1348" height="202" key="GridCell.Tab.0.bottom" timestamp="1587443998469">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="202" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
-    <state width="1348" height="202" key="GridCell.Tab.0.center" timestamp="1586839361839">
+    <state width="1348" height="202" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1587443998469" />
+    <state width="1348" height="202" key="GridCell.Tab.0.center" timestamp="1587443998468">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="202" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
-    <state width="1348" height="202" key="GridCell.Tab.0.left" timestamp="1586839361839">
+    <state width="1348" height="202" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1587443998468" />
+    <state width="1348" height="202" key="GridCell.Tab.0.left" timestamp="1587443998468">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="202" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
-    <state width="1348" height="202" key="GridCell.Tab.0.right" timestamp="1586839361839">
+    <state width="1348" height="202" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1587443998468" />
+    <state width="1348" height="202" key="GridCell.Tab.0.right" timestamp="1587443998469">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="202" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
-    <state width="1348" height="202" key="GridCell.Tab.1.bottom" timestamp="1586839361840">
+    <state width="1348" height="202" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1587443998469" />
+    <state width="1348" height="202" key="GridCell.Tab.1.bottom" timestamp="1587443998470">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="202" key="GridCell.Tab.1.bottom/0.23.1390.877@0.23.1390.877" timestamp="1586839361840" />
-    <state width="1348" height="202" key="GridCell.Tab.1.center" timestamp="1586839361840">
+    <state width="1348" height="202" key="GridCell.Tab.1.bottom/0.23.1390.877@0.23.1390.877" timestamp="1587443998470" />
+    <state width="1348" height="202" key="GridCell.Tab.1.center" timestamp="1587443998469">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="202" key="GridCell.Tab.1.center/0.23.1390.877@0.23.1390.877" timestamp="1586839361840" />
-    <state width="1348" height="202" key="GridCell.Tab.1.left" timestamp="1586839361839">
+    <state width="1348" height="202" key="GridCell.Tab.1.center/0.23.1390.877@0.23.1390.877" timestamp="1587443998469" />
+    <state width="1348" height="202" key="GridCell.Tab.1.left" timestamp="1587443998469">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="202" key="GridCell.Tab.1.left/0.23.1390.877@0.23.1390.877" timestamp="1586839361839" />
-    <state width="1348" height="202" key="GridCell.Tab.1.right" timestamp="1586839361840">
+    <state width="1348" height="202" key="GridCell.Tab.1.left/0.23.1390.877@0.23.1390.877" timestamp="1587443998469" />
+    <state width="1348" height="202" key="GridCell.Tab.1.right" timestamp="1587443998469">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state width="1348" height="202" key="GridCell.Tab.1.right/0.23.1390.877@0.23.1390.877" timestamp="1586839361840" />
-    <state x="349" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1586915177352">
+    <state width="1348" height="202" key="GridCell.Tab.1.right/0.23.1390.877@0.23.1390.877" timestamp="1587443998469" />
+    <state x="349" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1587520046479">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
-    <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1586915177352" />
+    <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1587520046479" />
+    <state x="478" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587349604427">
+      <screen x="0" y="23" width="1390" height="877" />
+    </state>
+    <state x="478" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1390.877@0.23.1390.877" timestamp="1587349604427" />
     <state x="100" y="123" width="1190" height="677" key="dock-window-1" timestamp="1586404929948">
       <screen x="0" y="23" width="1390" height="877" />
     </state>

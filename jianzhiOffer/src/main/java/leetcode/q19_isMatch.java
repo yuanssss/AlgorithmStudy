@@ -10,57 +10,41 @@ import java.util.regex.Pattern;
 public class q19_isMatch {
     public static void main(String[] args) {
         q19_isMatch q = new q19_isMatch();
-        String s = "a";
-        String p = "aa";
+        String s = "mississippi";
+        String p = "mis*is*p*.";
+
         boolean res = q.isMatch(s, p);
-        System.out.println(3%2);
+        System.out.println(res);
     }
 
     public boolean isMatch(String s, String p) {
-        boolean res = false;
-        char[] arrs = s.toCharArray();
-        char[] arrp = p.toCharArray();
-        char[]longer;
-        char[]shoter;
-        if(arrs.length<arrp.length)
-        {
-            shoter=arrs;
-            longer=arrp;
-        }
-        else
-        {
-            shoter=arrp;
-            longer=arrs;
-        }
-        int count = 0;
-        for (int i = 0; i < longer.length; i++) {
-
-            if (i <= shoter.length) {
-                for (int j = i; j < shoter.length; j++) {
-                    if (longer[i] == shoter[j] || longer[i] == '.' || shoter[j] == '.') {
-                        res = true;
-                    } else if (longer[i] == '*' && longer[i - 1] == shoter[j]) {
-                        res = true;
-                    } else if (shoter[j] == '*' && shoter[j - 1] == longer[i]) {
-                        res = true;
+        int n = s.length();
+        int m = p.length();
+        boolean[][] f = new boolean[n + 1][m + 1];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (j == 0) f[i][j] = i == 0;
+                else {
+                    if (p.charAt(j - 1) != '*') {
+                        if (i > 0 && s.charAt(i - 1) == p.charAt(j - 1) || p.charAt(j - 1) == '.') {
+                            f[i][j] = f[i - 1][j - 1];
+                        }
+                    } else//没有碰到*
+                    {
+                        if (j >= 2)//不看
+                        {
+                            f[i][j] |= f[i][j - 2];
+                        }
+                        if (i >= 1 && j >= 2 && s.charAt(i - 1) == p.charAt(j - 2) || p.charAt(j - 2) == '.') {
+                            f[i][j] |= f[i - 1][j];
+                        }
                     }
                 }
-            } else {
-                if (res==true&&longer[i] == '*') {
-                    count++;
-                }
             }
+
         }
-        int m=longer.length-shoter.length;
-        if(m%2!=0)
-        {
-            res=false;
-        }
-        if(res==true&&count==m/2)
-        {
-            res=true;
-        }
-        return res;
+        return f[n][m];
     }
+
 
 }

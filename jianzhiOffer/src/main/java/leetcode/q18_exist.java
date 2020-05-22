@@ -13,26 +13,40 @@ package leetcode;
  * 但矩阵中不包含字符串“abfb”的路径，因为字符串的第一个字符b占据了矩阵中的第一行第二个格子之后，路径不能再次进入这个格子。
  */
 public class q18_exist {
+    public static void main(String[] args) {
+        char[][] board = {
+                {'A', 'B','C','E'},
+                {'S', 'F', 'C', 'S'},
+                {'A', 'D', 'E', 'E'}
+        };
+        String word="ABCCED";
+        q18_exist q=new q18_exist();
+        System.out.println(q.exist(board,word));
+    }
+
     public boolean exist(char[][] board, String word) {
-        boolean res=false;
+        boolean res = false;
         char[] words = word.toCharArray();
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[0].length; j++) {
-                res=bfs(board, i, j, words, 0);
+                if(bfs(board, i, j, words, 0))
+                    return true;
             }
         }
-        return res;
+        return false;
     }
 
     public boolean bfs(char[][] board, int i, int j, char[] words, int k) {
-        if(i>board.length||i<0||j>board[0].length||j<0||board[i][j]!=words[k])return false;
-        char temp=board[i][j];
+        if(k==words.length)return true;
+        if (i >=board.length || i < 0 || j >= board[0].length || j < 0 || board[i][j] != words[k])
+            return false;
+        char temp = board[i][j];
         //进行搜索时防止再次搜索已经搜索过字符
-        board[i][i]='/';
-        boolean res=bfs(board,i-1,j,words,k+1)||bfs(board,i+1,j,words,k+1)||bfs(board,i,j-1,words,k+1)
-                ||bfs(board,i,j+1,words,k+1);
+        board[i][j] = '/';
+        boolean res = bfs(board, i - 1, j, words, k + 1) || bfs(board, i + 1, j, words, k + 1) || bfs(board, i, j - 1, words, k + 1)
+                || bfs(board, i, j + 1, words, k + 1);
         //一次搜索结束，返回原值
-        board[i][j]=temp;
+        board[i][j] = temp;
         return res;
     }
 }

@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfca714-5eb4-4a5b-9e36-4698d24a7516" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/stone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q20_cuttingRope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q21_cuttingRope2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q22_wordBreak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q23_wiggleMaxLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q24_quickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q25_findSwapValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q26_exist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q27_isValidBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/MIdTran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q28_minSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q29_isValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q30_uniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q31_numsTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q32_topKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q33_leastInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q34_findTargetSumWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q35_isSymmetric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q36_subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q37_subarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q38_findMedianSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q39_longestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q40_threeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q41_letterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q42_mergeTwoLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q43_removeNthFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/q44_generateParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,10 +28,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/leetcode/q18_exist.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/leetcode/q18_exist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/leetcode/q19_isMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/leetcode/q19_isMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/q18_exist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/q18_exist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/q19_isMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/q19_isMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MeiTuan/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MeiTuan/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MeiTuan/stone.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MeiTuan/stone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/leetcode/q24_quickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/leetcode/q24_quickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/leetcode/q27_isValidBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/leetcode/q27_isValidBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MeiTuan/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MeiTuan/stone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MeiTuan/stone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/q24_quickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/q24_quickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,22 +84,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.q27_isValidBST">
-    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MeiTuan.Tree" />
-      <module name="jianzhiOffer.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MeiTuan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="q18_exist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.q18_exist" />
+  <component name="RunManager" selected="Application.q43_removeNthFromEnd">
+    <configuration name="q38_findMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q38_findMedianSortedArrays" />
       <module name="jianzhiOffer.main" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q25_findSwapValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.q25_findSwapValues" />
+    <configuration name="q39_longestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q39_longestPalindrome" />
       <module name="jianzhiOffer.main" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q27_isValidBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.q27_isValidBST" />
+    <configuration name="q40_threeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q40_threeSum" />
       <module name="jianzhiOffer.main" />
       <extension name="coverage">
         <pattern>
@@ -126,12 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MeiTuan.stone" />
+    <configuration name="q42_mergeTwoLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q42_mergeTwoLists" />
       <module name="jianzhiOffer.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MeiTuan.*" />
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="q43_removeNthFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.q43_removeNthFromEnd" />
+      <module name="jianzhiOffer.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.q27_isValidBST" />
-        <item itemvalue="Application.q18_exist" />
-        <item itemvalue="Application.Tree" />
-        <item itemvalue="Application.stone" />
-        <item itemvalue="Application.q25_findSwapValues" />
+        <item itemvalue="Application.q43_removeNthFromEnd" />
+        <item itemvalue="Application.q42_mergeTwoLists" />
+        <item itemvalue="Application.q40_threeSum" />
+        <item itemvalue="Application.q39_longestPalindrome" />
+        <item itemvalue="Application.q38_findMedianSortedArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +230,42 @@
       <workItem from="1590025162325" duration="154000" />
       <workItem from="1590025329100" duration="2745000" />
       <workItem from="1590030609092" duration="539000" />
-      <workItem from="1590112377212" duration="165000" />
+      <workItem from="1590112377212" duration="199000" />
+      <workItem from="1590112819077" duration="4983000" />
+      <workItem from="1590198719298" duration="4811000" />
+      <workItem from="1590284826106" duration="4633000" />
+      <workItem from="1590371764682" duration="5213000" />
+      <workItem from="1590457614109" duration="485000" />
+      <workItem from="1590560597592" duration="1115000" />
+      <workItem from="1590978335630" duration="17000" />
+      <workItem from="1591063133012" duration="2881000" />
+      <workItem from="1591067179339" duration="3131000" />
+      <workItem from="1591150177747" duration="4039000" />
+      <workItem from="1591154957346" duration="88000" />
+      <workItem from="1591407322839" duration="4660000" />
+      <workItem from="1591413775555" duration="239000" />
+      <workItem from="1591494324363" duration="1859000" />
+      <workItem from="1591581495678" duration="3084000" />
+      <workItem from="1591606814286" duration="5000" />
+      <workItem from="1591667708562" duration="5400000" />
+      <workItem from="1591712038731" duration="1028000" />
+      <workItem from="1591773147523" duration="9000" />
+      <workItem from="1591844470502" duration="3556000" />
+      <workItem from="1592012973832" duration="3020000" />
+      <workItem from="1592185842100" duration="5361000" />
+      <workItem from="1592272451998" duration="6578000" />
+      <workItem from="1592310418223" duration="412000" />
+      <workItem from="1592470958127" duration="3492000" />
+      <workItem from="1592480697823" duration="110000" />
+      <workItem from="1592531544364" duration="6529000" />
+      <workItem from="1592618411389" duration="2782000" />
+      <workItem from="1592790907115" duration="2845000" />
+      <workItem from="1592793867818" duration="1737000" />
+      <workItem from="1592880020224" duration="3018000" />
+      <workItem from="1592901765147" duration="16000" />
+      <workItem from="1593311776779" duration="582000" />
+      <workItem from="1593395797855" duration="2438000" />
+      <workItem from="1593399645468" duration="43000" />
     </task>
     <servers />
   </component>
@@ -228,6 +274,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="295" y="128" key="#Notifications" timestamp="1587262693983">
@@ -242,46 +289,54 @@
       <screen x="0" y="23" width="1390" height="877" />
     </state>
     <state x="383" y="206" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1390.877@0.23.1390.877" timestamp="1587693874135" />
-    <state width="1349" height="223" key="GridCell.Tab.0.bottom" timestamp="1590028324664">
+    <state x="227" y="37" key="CommitChangelistDialog2" timestamp="1593399676679">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state x="227" y="37" key="CommitChangelistDialog2/0.23.1391.877@0.23.1391.877" timestamp="1593399676679" />
+    <state width="480" height="466" key="DebuggerActiveHint" timestamp="1592792658336">
+      <screen x="0" y="23" width="1391" height="877" />
+    </state>
+    <state width="480" height="466" key="DebuggerActiveHint/0.23.1391.877@0.23.1391.877" timestamp="1592792658335" />
+    <state width="1349" height="204" key="GridCell.Tab.0.bottom" timestamp="1592883353192">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state width="1348" height="223" key="GridCell.Tab.0.bottom/0.23.1390.877@0.23.1390.877" timestamp="1589339931128" />
-    <state width="1349" height="223" key="GridCell.Tab.0.bottom/0.23.1391.877@0.23.1391.877" timestamp="1590028324664" />
-    <state width="1349" height="223" key="GridCell.Tab.0.center" timestamp="1590028324664">
+    <state width="1349" height="204" key="GridCell.Tab.0.bottom/0.23.1391.877@0.23.1391.877" timestamp="1592883353192" />
+    <state width="1349" height="204" key="GridCell.Tab.0.center" timestamp="1592883353192">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state width="1348" height="223" key="GridCell.Tab.0.center/0.23.1390.877@0.23.1390.877" timestamp="1589339931128" />
-    <state width="1349" height="223" key="GridCell.Tab.0.center/0.23.1391.877@0.23.1391.877" timestamp="1590028324664" />
-    <state width="1349" height="223" key="GridCell.Tab.0.left" timestamp="1590028324663">
+    <state width="1349" height="204" key="GridCell.Tab.0.center/0.23.1391.877@0.23.1391.877" timestamp="1592883353192" />
+    <state width="1349" height="204" key="GridCell.Tab.0.left" timestamp="1592883353191">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state width="1348" height="223" key="GridCell.Tab.0.left/0.23.1390.877@0.23.1390.877" timestamp="1589339931127" />
-    <state width="1349" height="223" key="GridCell.Tab.0.left/0.23.1391.877@0.23.1391.877" timestamp="1590028324663" />
-    <state width="1349" height="223" key="GridCell.Tab.0.right" timestamp="1590028324664">
+    <state width="1349" height="204" key="GridCell.Tab.0.left/0.23.1391.877@0.23.1391.877" timestamp="1592883353191" />
+    <state width="1349" height="204" key="GridCell.Tab.0.right" timestamp="1592883353192">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state width="1348" height="223" key="GridCell.Tab.0.right/0.23.1390.877@0.23.1390.877" timestamp="1589339931128" />
-    <state width="1349" height="223" key="GridCell.Tab.0.right/0.23.1391.877@0.23.1391.877" timestamp="1590028324664" />
-    <state width="1349" height="192" key="GridCell.Tab.1.bottom" timestamp="1589958735285">
+    <state width="1349" height="204" key="GridCell.Tab.0.right/0.23.1391.877@0.23.1391.877" timestamp="1592883353192" />
+    <state width="1349" height="204" key="GridCell.Tab.1.bottom" timestamp="1592883353193">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state width="1348" height="202" key="GridCell.Tab.1.bottom/0.23.1390.877@0.23.1390.877" timestamp="1589339931122" />
-    <state width="1349" height="192" key="GridCell.Tab.1.bottom/0.23.1391.877@0.23.1391.877" timestamp="1589958735285" />
-    <state width="1349" height="192" key="GridCell.Tab.1.center" timestamp="1589958735284">
+    <state width="1349" height="204" key="GridCell.Tab.1.bottom/0.23.1391.877@0.23.1391.877" timestamp="1592883353193" />
+    <state width="1349" height="204" key="GridCell.Tab.1.center" timestamp="1592883353192">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state width="1348" height="202" key="GridCell.Tab.1.center/0.23.1390.877@0.23.1390.877" timestamp="1589339931122" />
-    <state width="1349" height="192" key="GridCell.Tab.1.center/0.23.1391.877@0.23.1391.877" timestamp="1589958735284" />
-    <state width="1349" height="192" key="GridCell.Tab.1.left" timestamp="1589958735284">
+    <state width="1349" height="204" key="GridCell.Tab.1.center/0.23.1391.877@0.23.1391.877" timestamp="1592883353192" />
+    <state width="1349" height="204" key="GridCell.Tab.1.left" timestamp="1592883353192">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state width="1348" height="202" key="GridCell.Tab.1.left/0.23.1390.877@0.23.1390.877" timestamp="1589339931122" />
-    <state width="1349" height="192" key="GridCell.Tab.1.left/0.23.1391.877@0.23.1391.877" timestamp="1589958735284" />
-    <state width="1349" height="192" key="GridCell.Tab.1.right" timestamp="1589958735284">
+    <state width="1349" height="204" key="GridCell.Tab.1.left/0.23.1391.877@0.23.1391.877" timestamp="1592883353192" />
+    <state width="1349" height="204" key="GridCell.Tab.1.right" timestamp="1592883353193">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state width="1348" height="202" key="GridCell.Tab.1.right/0.23.1390.877@0.23.1390.877" timestamp="1589339931122" />
-    <state width="1349" height="192" key="GridCell.Tab.1.right/0.23.1391.877@0.23.1391.877" timestamp="1589958735284" />
+    <state width="1349" height="204" key="GridCell.Tab.1.right/0.23.1391.877@0.23.1391.877" timestamp="1592883353193" />
     <state x="231" y="99" key="SettingsEditor" timestamp="1587696005377">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
@@ -290,31 +345,67 @@
       <screen x="0" y="23" width="1390" height="877" />
     </state>
     <state x="349" y="296" key="com.intellij.ide.util.TipDialog/0.23.1390.877@0.23.1390.877" timestamp="1587693708390" />
-    <state x="295" y="125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589788710840">
+    <state x="295" y="104" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590201159033">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state x="295" y="125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1390.877@0.23.1390.877" timestamp="1589166854695" />
-    <state x="295" y="125" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1391.877@0.23.1391.877" timestamp="1589788710840" />
-    <state x="478" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587349604427">
-      <screen x="0" y="23" width="1390" height="877" />
+    <state x="295" y="104" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1391.877@0.23.1391.877" timestamp="1590201159033" />
+    <state x="478" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591582684752">
+      <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state x="478" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1390.877@0.23.1390.877" timestamp="1587349604427" />
+    <state x="478" y="386" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1391.877@0.23.1391.877" timestamp="1591582684752" />
     <state x="100" y="123" width="1190" height="677" key="dock-window-1" timestamp="1586404929948">
       <screen x="0" y="23" width="1390" height="877" />
     </state>
     <state x="100" y="123" width="1190" height="677" key="dock-window-1/0.23.1390.877@0.23.1390.877" timestamp="1586404929948" />
-    <state x="401" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1583294161730">
-      <screen x="0" y="23" width="1390" height="877" />
-    </state>
-    <state x="401" y="87" key="refactoring.ChangeSignatureDialog/0.23.1390.877@0.23.1390.877" timestamp="1583294161730" />
-    <state x="360" y="213" width="671" height="676" key="search.everywhere.popup" timestamp="1589511207687">
+    <state x="360" y="213" width="671" height="676" key="search.everywhere.popup" timestamp="1591668469758">
       <screen x="0" y="23" width="1391" height="877" />
     </state>
     <state x="360" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1390.877@0.23.1390.877" timestamp="1589162133984" />
-    <state x="360" y="213" width="671" height="676" key="search.everywhere.popup/0.23.1391.877@0.23.1391.877" timestamp="1589511207687" />
+    <state x="360" y="213" width="671" height="676" key="search.everywhere.popup/0.23.1391.877@0.23.1391.877" timestamp="1591668469758" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/q40_threeSum.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/q44_generateParenthesis.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/q44_generateParenthesis.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/q44_generateParenthesis.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/q44_generateParenthesis.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="leetcode.ListNode" fieldName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jianzhiOffer$question15_ReverseList.ic" NAME="question15_ReverseList Coverage Results" MODIFIED="1585107016645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/jianzhiOffer$question9_JumpFloorII.ic" NAME="question9_JumpFloorII Coverage Results" MODIFIED="1583465516248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/jianzhiOffer$q40_threeSum.ic" NAME="q40_threeSum Coverage Results" MODIFIED="1592532890034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.*</FILTER>
+    </SUITE>
   </component>
 </project>

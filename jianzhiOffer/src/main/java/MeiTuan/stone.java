@@ -1,5 +1,7 @@
 package MeiTuan;
 
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 
 /*
@@ -12,34 +14,61 @@ import java.util.Scanner;
 4 1 2 5 3
  */
 public class stone {
+    int count = 0;
+
     public static void main(String[] args) {
-        Scanner cin=new Scanner(System.in);
-        int nums=cin.nextInt();
-        int[]arrays=new int[nums];
-        for(int i=0;i<arrays.length;i++)
-        {
-            arrays[i]=cin.nextInt();
-            System.out.println(arrays[i]);
+        Scanner cin = new Scanner(System.in);
+        int nums = cin.nextInt();
+        int[] arrays = new int[nums];
+        for (int i = 0; i < arrays.length; i++) {
+            arrays[i] = cin.nextInt();
+//            System.out.println(arrays[i]);
         }
-//        stone s=new stone();
-//        System.out.println(s.stoneSlove(nums,arrays));
+        stone s = new stone();
+
+        System.out.println(s.stoneSlove(arrays, 1, arrays.length));
     }
 
-    public int stoneSlove(int nums,int[]arrays)
-    {
-        int []dp=new int[nums];
-        dp[0]=0;
-        for(int i=1;i<arrays.length;i++)
-        {
-            if(arrays[i]>arrays[i-1])
-            {
-                dp[i]=dp[i-1];
-            }
-            else
-            {
-                dp[i]=dp[i-1]+1;
+    //思路：对数组进行排序，将最小的放到最左，将最大的放到最右，然后移动start和end指针对中间数组进行递归
+    public int stoneSlove(int[] arrays, int start, int end) {
+        int[] newArr = new int[arrays.length];
+        int min = Integer.MIN_VALUE;
+        int max = Integer.MAX_VALUE;
+        //递归终止条件
+        if (start >= end) {
+            return count;
+        }
+        for (int i = start; i < end; i++) {
+            //不是递增顺序
+            if (arrays[i] < arrays[i - 1]) {
+
+                if(arrays[i]<=arrays[0])
+                {
+                    newArr[0] = arrays[i];
+                    min = i;
+
+                }
+                if(arrays[i-1]>=arrays[arrays.length-1])
+                {
+                    newArr[arrays.length - 1] = arrays[i - 1];
+                    max = i - 1;
+                }
+
+                break;
             }
         }
-        return dp[nums-1];
+        int k = 1;
+        if (newArr[0]<newArr[arrays.length-1]) {
+            for (int i = 0; i < end; i++) {
+                if (i != min && i != max) {
+                    newArr[k] = arrays[i];
+                    k++;
+                }
+            }
+            count++;
+            stoneSlove(newArr, start + 1, end - 1);
+        }
+
+        return count;
     }
 }
